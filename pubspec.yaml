@@ -1,0 +1,35 @@
+name: lotse_purchases
+description: >-
+  In-app purchases and subscriptions for Flutter apps on a Lotse backend:
+  products from the console, purchases checked with the store, entitlements.
+version: 0.1.0
+homepage: https://lotse.dev
+repository: https://github.com/lotse-dev/lotse-purchases-flutter
+issue_tracker: https://github.com/lotse-dev/lotse-purchases-flutter/issues
+topics:
+  - in-app-purchase
+  - subscriptions
+  - billing
+platforms:
+  android:
+  ios:
+  macos:
+
+environment:
+  sdk: ^3.12.2
+  flutter: '>=3.44.4'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^11.2.0
+  in_app_purchase: ^3.3.1
+  in_app_purchase_android: ^0.5.4
+  in_app_purchase_storekit: ^0.4.14
+  lotse: ^0.2.0
+  package_info_plus: ^10.2.2
+
+dev_dependencies:
+  flutter_lints: '>=3.0.0 <7.0.0'
+  flutter_test:
+    sdk: flutter
